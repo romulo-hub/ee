@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://pmatrd06101d:44312/CEM/",
+  "defaultCommandTimeout": 10000,
+  "ignoreTestFiles": "{*.model.ts,*.page.ts,*.example.spec.js,*.utilitario.ts}",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mocha",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "video":false,
+  "screenshotOnRunFailure":false,
+  "env": {
+    "_comment": "DEVQA cemApi: http://pmatrd06101d:44311 authRole: cem_master_b3 | DEV cemApi: https://pmatrd04401d:44311 authRole: Master",
+    "cemApi": "http://pmatrd06101d:44311",
+    "authRole": "cem_master_b3",
+    "CnpjDepositaria":"49.947.355/0001-81",
+    "CnpjLiquidante":"60.701.190/0001-04",
+    "CnpjApiDepositaria":"49947355000181",    
+    "CnpjApiLiquidante":"60701190000104"
+  }
+}

@@ -1,0 +1,42 @@
+[
+   {
+      "Emissor": {
+         "Status": "ATIVO",
+         "CodigoEmissor": "BG03",
+         "RazaoSocial": "BWO",
+         "InscriçaoMunicipal": "SP0430",
+         "Representante": "A",
+         "Cargo": "Diretor Responsável",
+         "Setor": "Mats Básicos/Sid Metalurgia/Siderurgia",
+         "NomePregao": "Pregão Teste",
+         "CNPJ": "25069793000126",
+         "DataConstituiçao": "08/01/2020",
+         "ExercicioSocial": "08/01",
+         "Email": "teste@teste.com.br",
+         "EspecieControleAcionario": "Privado",
+         "InstituicaoFinanceira": "Bradesco",
+         "CNPJInstituicaoFinanceira": "25069793000126"
+      },
+      "Capital": {
+         "dataAprovacaoCapital": "01/06/2020",
+         "NominalUnitario": "Nominal",
+         "CapitalSocial": "28.500",
+         "NovoAtivoCapital": [
+            {
+               "AtivoCapital": "Preferencial",
+               "TipoAtivoCapital": "OR",
+               "QuantidadeCapital": "1000",
+               "ResgatavelCapital": true,
+               "TagAlongCapital": "92"
+            },
+            {
+               "AtivoCapital": "Ordinária",
+               "TipoAtivoCapital": "PR",
+               "QuantidadeCapital": "2000",
+               "ResgatavelCapital": false,
+               "TagAlongCapital": "82"
+            }
+         ]
+      }
+   }
+]

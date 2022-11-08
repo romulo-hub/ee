@@ -1,0 +1,21 @@
+[
+    {
+        "Emissor": {
+            "Status": "ATIVO",
+            "CodigoEmissor": "BG10",
+            "RazaoSocial": "BWO",
+            "InscriçaoMunicipal": "SP0430",
+            "Representante": "ABC",
+            "Cargo": "Diretor Responsável",
+            "Setor": "Não Classificado",
+            "NomePregao": "PREGAOTESTE",
+            "CNPJ": "04157683000146",
+            "DataConstituiçao": "08/01/2020",
+            "ExercicioSocial": "08/01",
+            "Email": "teste@teste.com.br",
+            "EspecieControleAcionario": "Privado",
+            "InstituicaoFinanceira": "Bradesco",
+            "CNPJInstituicaoFinanceira": "04157683000146"
+        }
+    }
+]

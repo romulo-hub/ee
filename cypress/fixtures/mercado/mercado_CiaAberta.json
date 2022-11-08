@@ -1,0 +1,50 @@
+[
+    {
+        "Emissor": {
+            "Status": "ATIVO",
+            "CodigoEmissor": "8576",
+            "RazaoSocial": "BPOS",
+            "InscriçaoMunicipal": "0430",
+            "Representante": "0123",
+            "Cargo": "Diretor Responsável",
+            "Setor": "Mats Básicos/Sid Metalurgia/Siderurgia",
+            "TipoEmissor": "Cia. Aberta",
+            "NomePregao": "Pregão",
+            "CNPJ": "46304954000199",
+            "DataConstituiçao": "12/2/2020",
+            "ExercicioSocial": "10/03",
+            "Email": "teste@teste.com",
+            "EspecieControleAcionario": "Privado"
+        },
+        "Mercado":{
+            "TipoMercado":"Bolsa",
+            "SituaçaoEmissor":"Listado",
+            "NegociaçaoSeparado":"ADM ESP. RAET",
+            "CategoriaB3":"B",            
+            "SegmentoNegociaçao":"Bolsa",
+            "CodigoCVM":"12345678",
+            "CategoriaCVM":"A",
+            "IsençaoFiscal":"Sim",
+            "InicioSituaçao":"01/01/2020",
+            "FimSituaçao":"02/02/2022",
+            "DataNegociaçaoSeparado":"02/01/2020",
+            "DataCategoriaB3":"02/03/2020",
+            "DataSegmentoNegociaçao":"19/03/2020",
+            "DataRegistroCVM":"01/03/2019",
+            "DataCategoriaCVM":"01/03/2019",
+            "InicioIsençaoFiscal":"01/01/2020",
+            "FimIsençaoFiscal":"02/02/2022",
+            "MercadoNegociaçao":[
+                {
+                    "MercadoNegociaçao":"Bolsa Renda Fixa",
+                    "LotePadrao":"1000",
+                    "FatorCotacao":"100",
+                    "inicioMercado":"10/03/2020",
+                    "FimMercado":"20/03/2020",
+                    "DataInicioLotePadrao":"09/03/2020",
+                    "DataInicioFatorCotaçao":"23/03/2020"
+                }
+            ]
+        }
+    }
+]

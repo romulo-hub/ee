@@ -1,0 +1,30 @@
+{
+  "name": "cypress_cem",
+  "version": "1.0.0",
+  "description": "Automação Portal Novo CEM",
+  "main": "index.js",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.5",
+    "cypress": "^8.7.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "dayjs": "^1.10.4",
+    "mocha": "^7.1.0",
+    "mochawesome": "^5.0.0",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^4.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6"
+  },
+  "scripts": {
+    "clean:reports": "if exist cypress\\reports DEL /F/Q/S cypress\\reports && if not exist cypress\\reports\\mochareports mkdir cypress\\reports\\mochareports",
+    "pretest": "npm run clean:reports",
+    "scripts": "npx cypress run --reporter mochawesome --browser chrome",
+    "combine-reports": "npx mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
+    "generate-report": "npx marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports  -i",
+    "ptest": "npm run combine-reports && npm run generate-report",
+    "test": "npm run scripts & npm run ptest"
+  },
+  "author": "",
+  "license": "ISC"
+}

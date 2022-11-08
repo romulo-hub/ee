@@ -1,0 +1,51 @@
+# .gitignore
+# Configuracao padrao para os arquivos que serao ignorados pelo controle de versao
+# Para maiores informacoes contatar a equipe de ALM.
+# E-Mail: ALM@bvmf.com.br
+
+# Build results
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/build/
+**/[Bb]in/
+**/[Oo]bj/
+
+# ignora binarios de aplicativos
+*.dll
+*.exe
+*.com
+*.class
+*.jar
+*.vs
+
+# ignora arquivos compactados
+*.zip
+*.bzip2
+*.gzip
+*.gz
+*.rar
+*.7z
+*.tar
+
+# ignora arquivos de log
+*.log
+
+# ignora arquivos binarios de aplicacao
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# ignora arquivos criados pelo maven
+/target
+
+# ignora arquivos da workspace do eclipse
+.settings/
+.classpath
+.project
+/Publish/ApiGateways
+
+# ignora pasta de screenhots
+**/screenshots/

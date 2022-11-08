@@ -1,0 +1,41 @@
+[
+    {
+        "Emissor": {
+            "Status": "ATIVO",
+            "CodigoEmissor": "BG03",
+            "RazaoSocial": "BWO",
+            "InscriçaoMunicipal": "SP0430",
+            "Representante": "A",
+            "Cargo": "Diretor Responsável",
+            "Setor": "Mats Básicos/Sid Metalurgia/Siderurgia",
+            "NomePregao": "Pregão Teste",
+            "CNPJ": "25069793000126",
+            "DataConstituiçao": "08/01/2020",
+            "ExercicioSocial": "08/01",
+            "Email": "teste@teste.com.br",
+            "EspecieControleAcionario": "Privado",
+            "InstituicaoFinanceira": "Bradesco",
+            "CNPJInstituicaoFinanceira": "25069793000126"
+        },
+        "Endereco": {
+            "EnderecoSede": "Rua Cisne Negro",
+            "NumeroSede": "322",
+            "ComplementoSede": "casa",
+            "CEPSede": "02990110  ",
+            "PaisSede": "Brasil",
+            "CidadeSede": "São Paulo",
+            "Telefone1Sede": "2565-42111",
+            "Telefone2Sede": "2565-4324",
+            "EnderecoCorrespondencia": {
+                "EnderecoCorresp": "Rua Astores",
+                "NumeroCorresp": "422",
+                "ComplementoCorresp": "casa",
+                "CEPCorresp": "40735220  ",
+                "PaisCorresp": "Brasil",
+                "CidadeCorresp": "Salvador",
+                "Telefone1Corresp": "3211-4700",
+                "Telefone2Corresp": "3211-4204"
+            }
+        }
+    }
+]
